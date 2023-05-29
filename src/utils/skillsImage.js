@@ -58,6 +58,9 @@ import strapi from '../assets/svg/skills/strapi.svg'
 import tensorflow from '../assets/svg/skills/tensorflow.svg'
 import webix from '../assets/svg/skills/webix.svg'
 import wordpress from '../assets/svg/skills/wordpress.svg'
+import laravel from '../assets/svg/skills/laravel.svg'
+import android from '../assets/svg/skills/android.svg'
+import autocad from '../assets/svg/skills/autocad.svg'
 
 import azure from '../assets/svg/skills/azure.svg'
 import blender from '../assets/svg/skills/blender.svg'
@@ -79,6 +82,12 @@ import canva from '../assets/svg/skills/canva.svg'
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
     switch (skillID) {
+        case 'autocad':
+            return autocad;
+        case 'android studio':
+            return android;
+        case 'laravel':
+            return laravel;
         case 'gcp':
             return gcp;
         case 'html':

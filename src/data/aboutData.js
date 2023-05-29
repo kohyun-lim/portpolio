@@ -1,6 +1,6 @@
 export const aboutData = {
     title: "Who I am",
-    description1: "Hello! My name is Sreerag Rajan. I'm an aspiring web developer based in India.",
-    description2: "I am a student at Masai School, currently learning Fullstack Web-Development. A project that I worked on towards the end of my Master’s in History set me on this path of a web developer. The project involved looking at movies on historical themes that could be considered as an educational tool. The website was not the focus of the project, but working on it was such a thrilling experience that a career in this felt like a right fit. Other than this I am a bibliophile, who not just loves reading books but also buying and maintaining a personal library.",
+    description1: "Hello! My name is Kohyun Lim.",
+    description2: "Highly motivated computing and information systems student with a strong skill set in web development and software engineering. Proficient in HTML, JavaScript, and PHP, as well as experience with databases and AutoCAD. Skilled in multiple programming languages including C++, C#, and Java. Proficient in Microsoft Word, Excel, and PowerPoint. Experience with Android software development using Android Studio. Seeking a challenging position as a web or software developer to apply and further develop technical skills while contributing to the success of a dynamic team. Strong work ethic, problem-solving abilities, and eagerness to learn and grow in a fast-paced environment.",
     image: 2
 }
