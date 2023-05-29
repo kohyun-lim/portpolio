@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, Redirect, BrowserRouter } from 'react-router-dom';
 
 import { ThemeContext } from './contexts/ThemeContext';
 import { Main, BlogPage, ProjectPage } from './pages'
@@ -18,6 +18,7 @@ function App() {
 
   return (
     <div className="app">
+      <BrowserRouter basename="/react_voca_app">
       <Router>
         <ScrollToTop/>
         <Switch>
@@ -29,6 +30,7 @@ function App() {
         </Switch>
       </Router>
       <BackToTop />
+      </BrowserRouter>
     </div>
   );
 }
