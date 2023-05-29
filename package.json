@@ -1,5 +1,5 @@
 {
-  "homepage": "https://kohyun-lim.github.io/portpolio/index.html",
+  "homepage": "https://kohyun-lim.github.io/portpolio/index.html/",
   "name": "developer-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -29,8 +29,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "cp build/index.html build/404.html && gh-pages -d build",
-    "predeploy": "npm run build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
